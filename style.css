@@ -1,0 +1,202 @@
+/* -------------------- BASE GLOBAL -------------------- */
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  background: linear-gradient(180deg, #000000 0%, #1c1c1c 100%);
+  color: #ffffff;
+}
+
+section {
+  padding: 80px 0;
+}
+
+/* -------------------- INTRO / INÍCIO -------------------- */
+#inicio {
+  height: 100vh;
+  background: linear-gradient(180deg, #000000 0%, #1c1c1c 110%);
+}
+
+.nome {
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.descricao {
+  color: #888080;
+  font-weight: 700;
+}
+
+/* -------------------- PÁGINA DO PROJETO -------------------- */
+.projeto-descricao {
+  font-size: 1.25rem;
+  color: #888080;
+  line-height: 1.7;
+  text-align: left;
+}
+
+#projeto-destaque h3 {
+  text-align: left;
+}
+
+/* -------------------- SOBRE MIM -------------------- */
+#sobre h2 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+#sobre .texto-sobre {
+  font-size: 1.2rem;
+  color: #888080 !important;
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+
+/* -------------------- NAVBAR -------------------- */
+.navbar {
+  background-color: #000000 !important;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.nav-link:hover {
+  color: #cccccc !important;
+}
+
+.navbar-brand img {
+  height: 55px;
+}
+
+/* -------------------- PROJETOS -------------------- */
+#projetos h2 {
+  color: #ffffff;
+}
+
+#projetos p {
+  color: #cccccc;
+  font-size: 0.95rem;
+}
+
+#projetos .btn {
+  margin-top: 0.5rem;
+}
+
+.video-projeto-inicial {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  object-fit: cover;
+  background-color: #000;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+
+.video-projeto-mini {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: contain;
+  background-color: #000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-projeto-mini:hover {
+  transform: scale(1.20);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+
+
+/* -------------------- CARROSSEL -------------------- */
+.carousel-inner {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.carousel-item .card {
+  border: none;
+  background-color: #1c1c1c;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.card-img-top {
+  background-color: #000;
+  padding: 1rem;
+}
+
+.card-img-top img {
+  max-height: 280px;
+  object-fit: contain;
+}
+
+.card-body {
+  padding: 1rem 1.5rem;
+  background: linear-gradient(180deg, #1c1c1c, #2a2a2a);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
+.card.shadow-sm {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* -------------------- FORMULÁRIOS -------------------- */
+input.form-control,
+textarea.form-control {
+  background-color: #121212;
+  color: #ffffff;
+  border: 1px solid #333333;
+}
+
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+  color: #888888;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+  background-color: #121212;
+  color: #ffffff;
+  border-color: #333333;
+  box-shadow: none;
+}
+
+/* -------------------- CONTATO -------------------- */
+#contato h2 {
+  color: #ffffff;
+}
+
+/* -------------------- BOTÕES -------------------- */
+.btn-outline-light {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+/* -------------------- RODAPÉ -------------------- */
+footer {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
